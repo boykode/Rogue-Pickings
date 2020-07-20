@@ -1,0 +1,164 @@
+/***** BASE STYLES *****/
+
+body {    
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER *****/
+
+header {
+    height: 112px;
+    border-bottom: 2.5px solid #77a466;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+header h1 {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 48px 199px 41px 0px;
+    text-transform: uppercase;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+nav {
+    float: right;
+    padding: 48px 0px 41px 199px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #77a466;
+    font-size: 14px; 
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/***** TOP SECTION *****/
+
+#top-section .full-width {
+    padding: 0px;
+}
+
+#top-section img#hero-img {
+    border-bottom: 3px solid #77a466;
+}
+
+#top-section h2 {
+    color: #77a466;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 23px;
+    padding: 30px 0px;
+    text-transform: uppercase;
+}
+
+#top-section p{
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 35px;
+}
+
+/***** BOTTOM SECTION *****/
+
+#bottom-section .full-width {
+    border-top: .5px solid #dedbdc;
+    text-align: left;
+    margin: 0 auto;
+}
+
+#bottom-section h3 {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+#menu {
+    border-right: .5px solid #dedbdc;
+    padding: 25px 0px 55px 0px;
+    width: 380px;
+}
+
+#menu ul {
+    color: #77a466;
+}
+
+#featured-review {
+    border-right: .5px solid #dedbdc;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 25px 15px;
+    width: 370px;
+}
+
+#contact {
+    padding: 25px 0px 25px 18px;
+    width: 380px;
+}
+
+#contact ul {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/***** FOOTER *****/
+
+#motto .full-width {
+    border-top: .5px solid #dedbdc;
+    padding: 30px;
+}
+
+ #motto h3 {
+     color: #000000;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 16px;
+     font-weight: bold;
+     text-align: center;
+     text-transform: uppercase;
+ }
+
+ #motto h3 span {
+    color: #77a466;
+    font-family: 'Galada', cursive;
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: none;
+ }
+
